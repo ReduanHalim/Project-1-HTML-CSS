@@ -40,10 +40,19 @@ main {
     margin-top: 47px;
 }
 
-#hero {
-    height: 600px;
+#background-image {
+    height: 400px;
     width: 100%;
     background: url("../images/terracotta-army.jpg") no-repeat center center/cover;
+}
+
+#warrior {
+    margin: 30px auto;
+    width: 80%;
+}
+
+#warrior h2 {
+    margin-bottom: 10px;
 }
 
 #menu {
@@ -78,17 +87,16 @@ nav {
     font-size: 2rem;
 }
 
-#social-networks {
+#contact {
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
 }
-#social-networkds i {
-    font-size: 200%;
-    padding: 5%;
-    color: #3a3a3a;
+#contact i {
+    font-size: 100%;
+    color: rgb(66, 50, 31);
 }
 
 @media screen and (min-width: 768px) {
