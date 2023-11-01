@@ -27,6 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    
 }
 
 header a {
@@ -78,6 +79,20 @@ p{
     margin: 10px;
 }
 
+#score {
+    padding: 20px 15% 0 15%;
+    flex-grow: 1;
+    margin-top: 40px ;
+    
+    
+}
+#score-tickets {
+    margin: 30px 0;
+}
+.tickets {
+    color: black;
+}
+
 #more {
     margin-top: 20px;
 }
@@ -101,7 +116,7 @@ p{
     line-height: 0%;
 }
 #margin {
-    margin-top: 80px ;
+    margin-top: 50px ;
     margin-bottom: 10px;
 }
     
@@ -191,6 +206,9 @@ footer {
     #pics {
         column-count: 3;
     }
+    #score {
+        padding: 20px 30%;
+    }
     
 
 }
@@ -221,5 +239,7 @@ footer {
     #pics {
         column-count: 3;
     }
-   
+    #score {
+        padding: 20px 40% ;
+    }
 }
