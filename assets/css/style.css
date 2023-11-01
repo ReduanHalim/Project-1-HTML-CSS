@@ -92,6 +92,9 @@ p{
 .tickets {
     color: black;
 }
+iframe {
+    width: 100%;
+}
 
 #more {
     margin-top: 20px;
