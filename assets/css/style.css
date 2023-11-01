@@ -34,7 +34,7 @@ header a {
     color:black
 }
 h1 {
-    color: antiquewhite; 
+    color: rgb(208, 200, 191); 
 }
 
 main {
@@ -74,7 +74,11 @@ p{
     margin: 10px;
 }
 
+#more {
+    margin-top: 20px;
+}
 #figure {
+    margin-top: 20px;
     height: 100px;
     width: 100%;
     background: url("../images/Terracotta.jpg") no-repeat center center/cover;
@@ -165,7 +169,8 @@ footer {
 }
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 3px solid #050404;
+        
     }
     header {
         width: 100%;
@@ -180,5 +185,11 @@ footer {
     #visit {
         margin: 30px 0;
     }
-  
+    #more {
+        margin-top: 40px;
+    }
+    #figure {
+        margin-top: 40px;
+    }
+   
 }
