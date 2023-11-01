@@ -91,6 +91,7 @@ p{
 
 #pics img {
     width: 100%;
+    line-height: 1em;
 }
 #pics {
     line-height: 0%;
@@ -151,6 +152,13 @@ footer {
     
 }
 
+@media screen and (min-width: 576px) {
+   #pics {
+        column-count: 2;
+        column-gap: 0;
+   }     
+}
+
 @media screen and (min-width: 768px) {
     nav {
         display: block;
@@ -175,6 +183,9 @@ footer {
     }
     main {
         margin-top: 79px;
+    }
+    #pics {
+        column-count: 3;
     }
 
 }
@@ -201,6 +212,9 @@ footer {
     }
     #figure {
         margin-top: 40px;
+    }
+    #pics {
+        column-count: 3;
     }
    
 }
