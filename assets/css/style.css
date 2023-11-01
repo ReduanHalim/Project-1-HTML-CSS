@@ -37,6 +37,9 @@ header a {
 h1 {
     color: rgb(208, 200, 191); 
 }
+.hidden-heading {
+    display: none;
+}
 
 main {
     background-color: bisque;
