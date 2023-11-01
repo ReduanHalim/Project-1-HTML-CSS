@@ -89,6 +89,17 @@ p{
     margin-bottom: 15px;
 }
 
+#pics img {
+    width: 100%;
+}
+#pics {
+    line-height: 0%;
+}
+#margin {
+    margin-top: 80px ;
+    margin-bottom: 10px;
+}
+
 #menu {
     font-size: large;
     list-style-type: none; 
